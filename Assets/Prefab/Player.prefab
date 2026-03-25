@@ -1976,8 +1976,8 @@ GameObject:
   - component: {fileID: 9221971540458786339}
   - component: {fileID: 9110294358397245377}
   - component: {fileID: 8101301172865990022}
-  - component: {fileID: 1144050976623173423}
   - component: {fileID: 6787702447670544612}
+  - component: {fileID: 4418214696911127332}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2133,20 +2133,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 2.0415618}
   m_Size: {x: 1.03, y: 4.0756}
   m_Direction: 0
---- !u!114 &1144050976623173423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7779093351926345299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741f30960d63a984c904285d23069b75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movePower: 10
-  jumpPower: 15
 --- !u!114 &6787702447670544612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2159,6 +2145,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25edea5f4d77c74d828874c56cf37e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4418214696911127332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779093351926345299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0dd8a38bb283714a9f44e8cdb653093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearSky.PlayerMovement
+  movePower: 10
+  jumpPower: 15
 --- !u!1 &7864861733417019765
 GameObject:
   m_ObjectHideFlags: 0

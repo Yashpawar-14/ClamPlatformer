@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ClearSky;
 
-namespace ClearSky
-{
-    public class WizDemo1 : MonoBehaviour
+
+
+    public class PlayerAnimations : MonoBehaviour
     {
 
         Animator anim;
@@ -64,4 +63,4 @@ namespace ClearSky
 
         }
     }
-}
+
